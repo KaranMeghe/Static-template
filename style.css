@@ -1,0 +1,188 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+}
+
+/* Navbar */
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  align-items: baseline;
+}
+
+/* logo */
+.navbar-container > div > img {
+  width: 75%;
+}
+.list {
+  display: flex;
+}
+.list li:nth-of-type(1) {
+  font-weight: 700;
+  border-bottom: 3px solid #000000;
+  width: 12%;
+}
+
+.list li {
+  margin: 0 20px;
+  list-style: none;
+  font-size: 22px;
+}
+.button-group {
+  display: flex;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: -30%;
+  top: 15%;
+}
+
+.nav-button {
+  background-color: transparent;
+  padding: 8px 35px;
+  border-radius: 12px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+/* End of navbar */
+
+/* Hero banner section */
+.banner {
+  position: relative;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  /* position: relative; */
+}
+
+.square > img {
+  position: absolute;
+  top: 49%;
+  left: 14%;
+  z-index: -1;
+  height: 40%;
+}
+
+.hero-container > div > img {
+  height: 60%;
+  position: absolute;
+  left: 4.5%;
+  top: 22%;
+}
+/* globe */
+.globe {
+  position: absolute;
+  left: 52%;
+}
+.globe img {
+  height: 60px;
+}
+/* end */
+
+/* star */
+.star {
+  position: absolute;
+  height: 100%;
+  left: 85%;
+  top: 22%;
+}
+
+.star img {
+  height: 8%;
+}
+/* end */
+
+/* text info */
+.hero-container-right {
+  margin: 9% 0;
+  text-align: center;
+  width: 50%;
+}
+.hero-heading {
+  font-size: 50px;
+  /* word-spacing: 10px; */
+  letter-spacing: 1px;
+  margin-bottom: 8%;
+  /* text-align: center; */
+}
+.hero-description {
+  font-family: sans-serif;
+  color: #555;
+  text-align: center;
+  width: 80%;
+  /* height: 20%; */
+  font-weight: 300;
+  margin: 10% auto;
+  padding: 10px 0;
+  line-height: 1.2em;
+}
+
+/* button */
+.hero-container-right > div {
+  text-align: center;
+}
+
+.button-email {
+  background: transparent;
+  padding: 5px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 12px;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+.button-join {
+  background-color: #000000;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  font-family: inherit;
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+
+.star-1 {
+  position: relative;
+  left: -45%;
+  top: 12%;
+}
+.star-1 img {
+  height: 45px;
+}
+
+.star-1 + div {
+  text-align: center;
+}
+
+.contact-heading {
+  margin: 20px 0;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.icons span {
+  padding: 0 10px;
+}
+
+.icons span img {
+  height: 35px;
+}
+/* end */
+/* End of Hero Banner Section */ ;
